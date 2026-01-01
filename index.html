@@ -1,242 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <title>Shiva Manhar | Resume</title>
-  <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
-
-  <!-- Favicons -->
-  <link href="img/favicon.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
-
-  <!-- Bootstrap CSS File -->
-  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Libraries CSS Files -->
-  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-  <link href="lib/animate/animate.min.css" rel="stylesheet">
-  <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
-  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
-
-  <!-- Main Stylesheet File -->
-  <link href="css/style.css" rel="stylesheet">
-
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shiva Manhar | Data Engineer</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+      background: #0f172a;
+      color: #e5e7eb;
+      line-height: 1.6;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    header {
+      display: grid;
+      gap: 20px;
+      margin-bottom: 60px;
+    }
+    h1 {
+      font-size: 2.5rem;
+      margin: 0;
+      color: #f8fafc;
+    }
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      color: #38bdf8;
+    }
+    p {
+      margin: 0 0 15px 0;
+      color: #cbd5f5;
+    }
+    .tagline {
+      font-size: 1.1rem;
+      color: #94a3b8;
+    }
+    section {
+      margin-bottom: 50px;
+    }
+    .skills {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .skill {
+      background: #1e293b;
+      padding: 8px 14px;
+      border-radius: 999px;
+      font-size: 0.9rem;
+      color: #e2e8f0;
+    }
+    .links a {
+      color: #38bdf8;
+      margin-right: 15px;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .links a:hover {
+      text-decoration: underline;
+    }
+    footer {
+      border-top: 1px solid #1e293b;
+      padding-top: 20px;
+      color: #94a3b8;
+      font-size: 0.9rem;
+    }
+  </style>
 </head>
-
 <body>
-  <!--==========================
-  Header
-  ============================-->
-  <header id="header">
+  <div class="container">
 
-
-
-    <div class="container">
-
-      <div class="logo float-left">
-        <!-- Uncomment below if you prefer to use an image logo -->
-        <h1 class="text-light"><a href="#intro" class="scrollto"><span>Shiva Manhar </span></a></h1>
-        <!-- <a href="#header" class="scrollto"><img src="img/logo.png" alt="" class="img-fluid"></a> -->
+    <header>
+      <h1>Shiva Manhar</h1>
+      <p class="tagline">Senior / Staff Data Engineer • Databricks • Spark • Cloud Data Platforms</p>
+      <div class="links">
+        <a href="mailto:shivamanhar@gmail.com">Email</a>
+        <a href="#" target="https://https://shivamanhar.github.io">Resume</a>
+        <a href="https://github.com/shivamanhar" target="_blank">GitHub</a>
+        <a href="https://www.kaggle.com/shivamanhar" target="_blank">Kaggle</a>
+        <a href="https://smanhar.medium.com/" target="_blank">Medium</a>
+        <a href="https://www.linkedin.com/" target="_blank">LinkedIn</a>
       </div>
+    </header>
 
-      <nav class="main-nav float-right d-none d-lg-block">
-        <ul>
-          <li class="active"><a href="#intro1">Introduction</a></li>
-          <li><a href="#study">Education</a></li>
-          <li><a href="#current_position">Current Position</a></li>
-          <li><a href="#past_position">Past Position</a></li>
-          <li><a href="#Other_skills">Other Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I am a data engineer with over 12 years of experience building scalable, reliable, and cost-efficient
+        data platforms. My primary focus is on Databricks-based lakehouse architectures using Apache Spark,
+        Delta Lake, and cloud-native services on AWS and Azure.
+      </p>
+      <p>
+        I enjoy solving complex data problems, optimizing large-scale pipelines, and designing systems
+        that support analytics and business decision-making. I prefer hands-on individual contributor roles
+        where I can own architecture and implementation end to end.
+      </p>
+    </section>
 
-        </ul>
-      </nav><!-- .main-nav -->
+    <section>
+      <h2>What I Work On</h2>
+      <p>Typical areas I work on day to day:</p>
+      <ul>
+        <li>Batch and streaming data pipelines using Spark and Databricks</li>
+        <li>Lakehouse architecture (Bronze / Silver / Gold)</li>
+        <li>Performance tuning, data skew handling, and cost optimization</li>
+        <li>Cloud data platforms on AWS and Azure</li>
+        <li>Data modeling and analytics enablement</li>
+      </ul>
+    </section>
 
-    </div>
-  </header><!-- #header -->
-
-  <!--==========================
-    Intro Section
-  ============================-->
-
-  <main id="main">
-
-    <!--==========================
-      About Us Section
-    ============================-->
-    <section id="about">
-
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <a href="#" class="btn" id="menu-toggle"><span class="glyphicon glyphicon-menu-hamburger"></span></a>
-
-            
-<h1 class="text-left" >PROFILE SUMMARY</h1>
-<p class="text-justify">Results-driven Data Engineer with 11 years of experience in technology, including 5 years in designing, developing, and optimizing data pipelines and ETL workflows, and 6 years as a Database Administrator and Full Stack Web Developer, along with 3+ years specializing in generative AI solutions. Proven expertise in developing cutting-edge AI systems such as large language models (LLMs), image synthesis tools, and AI-powered applications. Adept at building scalable data solutions with a strong foundation in data architecture, cloud technologies, and big data processing. Certified in Databricks for Apache Spark, with demonstrated expertise in transforming complex data into actionable insights to drive business decisions.</p>
-
-
-            
-
-           <h1 class="text-left" id="study">Education and Qualifications</h1>
-
-            <p class="text-justify"> 2012 - <b>Master of Computer Application </b><br/>
-            Pt. Ravishankar Shukla University, Raipur (C.G.), INDIA
-            </p>
-            <p class="text-justify"> 2009 - <b>Bachelor of Computer Application</b><br/>
-              Guru Ghashi Das University, Bilaspur(C.G.), INDIA
-            </p>
-            
-             <h1 class="text-left" >Certification</h1>
-             <p class="text-justify"> <b>Databricks Certified Data Engineer Professional  </b><br/>
-            (issued: June 23, 2025)
-            </p>
-            <img src ="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/152771748" style="width:200px; height:200px;">
-            <p class="text-justify"> <b>Databricks Certified Data Engineer Associate  </b><br/>
-             (issued: August 2024)
-            </p>
-            <img src="https://api.accredible.com/v1/frontend/credential_website_embed_image/badge/111884534" style="width:200px; height:200px;">
-            <h1 class="text-left" id="current_position">Current Position</h1>
-            <p   class="text-justify">
-             <b> Fortune 100 Company (Confidential),  </b> 
-             <b> January 2024 – Present </b> 
-             <br/>
-             
-             Duties:
-             <ul>
-              <li>	Collaboration: Worked closely with data scientists and analysts to integrate predictive models into data workflows, enabling real-time analytics.
-<li>	Data Integration: Developed complex ETL processes that integrated data from multiple sources, including relational databases, APIs, and unstructured data.
-<li>	Data Quality Assurance: Conducted data quality checks to ensure data integrity, which reduced errors in downstream
-<li>	Designed and implemented a global ticket and incident data pipeline, integrating multiple data sources into a centralized SQL Server database.
-<li>	Developed a robust semantic model to connect SQL Server with Power BI, enabling business users to perform self-service analytics.
-<li>	Authored complex DAX scripts to support dynamic reporting, KPIs, and data transformations in Power BI.
-<li>	Built data models to support retail shop analytics, including multiple sales attribution models such as First-Touch and Last-Touch, to help measure campaign effectiveness and customer journey insights.
-
-</ul>
-
-            </p>
-            <h1 class="text-left" id="past_position">Past Positions</h1>
-            <p   class="text-justify">
-              <b>BS Fintech Private Limited, Bangalore as Data Engineer,	</b>
-              <b> February 2023 – December 2023 </b> 
-              <br/>Duties:
-              <ul>
-              <li>To create a pipeline for extracting data of potential customers for credit cards, bank accounts, and loans, I have built a pipeline using AWS S3, Databricks and PySpark.
-<li>Designed the data pipeline architecture for a top financial advisor every month.
-<li>Optimize database systems for performance efficiency.
-<li>Perform space management and capacity planning for database systems.
-<li>Creating complex functions, scripts, stored procedures, and triggers to support application development.
-
-            </ul>
-            </p>
-            <p   class="text-justify">
-              <b>National Informatics Centre Services Inc. (NICSI), Raipur as Data Engineer, 	</b>
-              <b> April 2019 – January 2023 </b> 
-              <br/>Duties:
-              <ul>
-
-                <li>I created a pipeline to consolidate data from the Food Department, Land Records Department, and Agriculture Department based on certain conditions. This resulted in useful for transfer of funds into the accounts of farmers.
-<li>Prepared data to distribute the amount of 28,000 crores under the CG Government's RJKNY scheme among 2,500,000 farmers.
-<li>Prepared various types of reports for the CG Government related to the RGKNY scheme.
-<li>Developed and created ER diagram, views, index, stored procedures and functions. 
-<li>Involved in the design of Physical Database schema, data modeling and performance tuning.
-<li>Monitoring of database size and disk space in Production Environment.
-<li>Using Services (S3,RDS,  AWS Glue, Redshift, Glue, Lambda, Python, EC2 and SQL) 
-<li>Version Controlling Tool : Git
-
-            </ul>
-            </p>
-
-            <p   class="text-justify">
-              <b>Ootaboo Pvt. Ltd., Raipur as Full Stack Developer,	</b>
-              <b> May 2015 – March 2019 </b> 
-              <br/>Duties:
-              <ul>
-
-                <li> Developed web based scheduling platform, also prepared data reports based on the criteria </li>
-            </ul>
-            </p>
-
-            <p   class="text-justify">
-              <b>Orbit Plus, Raipur as Full Stack Developer, 	</b>
-              <b> May 2014 – April 2015 </b> 
-              <br/>Duties:
-              <ul>
-
-                <li> Website Development, Teaching and Training </li>
-            </ul>
-            </p>
-
-            <p   class="text-justify">
-              <b>Pt. Ravishankar Shukla University, Raipur as Assistant Professor, 	</b>
-              <b> Sept 2013 - April 2014 </b> 
-              <br/>Duties:
-              <ul>
-                <li> Teaching and Programming training</li>
-
-            </ul>
-            </p>
-
-
-            <h1 class="text-left" id="Other_skills">Other Skills</h1>
-            <ul>
-
-              <li><b>Programming Languages		:</b> 	Python [6 Years]
-              <li><b>Database		:</b>	MySQL [9 Years], MariaDB [9 Years], PostgreSQL, MongoDB 
-              <li><b>Data Engineer		:</b> 	NoSQL, SQL, ETL, PySpark [5 Years], Databricks, Redshift, Glue, Delta Lake
-              <li><b>Machine Learning		:</b>	TensorFlow, Keras, scikit-learn, OpenCV, PyTorch, NumPy, pandas 
-              <li><b>Visualization		:</b>	Matplotlib, Seaborn, Bokeh
-              <li><b>AWS		:</b>	S3, RDS, AWS Glue, Redshift, Glue, Lambda, EC2
-              <li><b>Azure		:</b>	Azure Data Factory, Azure Data Lake Storage, Azure Synapse
-              <li><b>Other		:</b>  Data Modeling, ETL/ELT Design, Data Governance, CI/CD
-
-            </ul>
-            <h1 class="text-left" id="contact">Journal Publications</h1>
-            <p    class="text-justify">
-              <b>1. R.D. Nirala, Shiva Manhar </b> “Visual Improvement for Dense foggy & hazy weather
-images,Usig Contrast enhancement techniques” ISST Jouranal of Electrical & Electronics
-Engineering Vol. 7 No1 jan – june 2016 pp 53-62. ISSN 0976-7363.
-            </p>
-            <p    class="text-justify">
-              <b>2.	Dr. R.D. Nirala, Shiva Manhar </b>-“A multimodal Enhancement Techniques Using For Visual Improvement Of Dense Foggy & Hazy Weather Image”, Journal of Survey in Fisheries Sciences 8 (3), 654-667
-            </p>
-            <h1 class="text-left" id="contact">Contact</h1>
-            shivamanhar@gmail.com |           
-            <a href="https://www.kaggle.com/shivamanhar">Kaggle</a> |
-            <a href="https://github.com/shivamanhar">Github</a> | <a href="https://www.linkedin.com/in/shiva-manhar-b45709276/">Linkedin</a>
-          </div>
+    <section>
+      <h2>Projects</h2>
+      <p>Selected projects that reflect my work as a senior data engineer:</p>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:20px;">
+        <div style="background:#1e293b;padding:20px;border-radius:16px;">
+          <h3 style="margin-top:0;color:#38bdf8;">Real-Time Lakehouse Pipeline</h3>
+          <p>Kafka → Databricks Structured Streaming pipeline implementing Bronze–Silver–Gold layers with Delta Lake, schema evolution, and checkpointing for reliable near real-time analytics.</p>
+          <a href="#" style="color:#38bdf8;text-decoration:none;">Case study (coming soon)</a>
+        </div>
+        <div style="background:#1e293b;padding:20px;border-radius:16px;">
+          <h3 style="margin-top:0;color:#38bdf8;">Enterprise Analytics Lakehouse</h3>
+          <p>Built a scalable Databricks lakehouse processing multi-terabyte batch data. Focused on Spark performance tuning, AQE, Z-ORDER, and cost optimization.</p>
+          <a href="#" style="color:#38bdf8;text-decoration:none;">Case study (coming soon)</a>
+        </div>
+        <div style="background:#1e293b;padding:20px;border-radius:16px;">
+          <h3 style="margin-top:0;color:#38bdf8;">CDC & Incremental Data Platform</h3>
+          <p>Designed CDC-based incremental ingestion pipelines into Delta tables with SCD Type 1 and Type 2 modeling to support analytics and BI workloads.</p>
+          <a href="#" style="color:#38bdf8;text-decoration:none;">Case study (coming soon)</a>
+        </div>
+        <div style="background:#1e293b;padding:20px;border-radius:16px;">
+          <h3 style="margin-top:0;color:#38bdf8;">Cloud Migration & Optimization</h3>
+          <p>Migrated legacy analytics workloads to Databricks on AWS and Azure, applying auto-scaling, cluster policies, and storage optimizations.</p>
+          <a href="#" style="color:#38bdf8;text-decoration:none;">Case study (coming soon)</a>
         </div>
       </div>
     </section>
-  </main>
 
+    <section>
+      <h2>Core Technologies</h2>
+      <div class="skills">
+        <div class="skill">Databricks</div>
+        <div class="skill">Apache Spark</div>
+        <div class="skill">PySpark</div>
+        <div class="skill">Delta Lake</div>
+        <div class="skill">Structured Streaming</div>
+        <div class="skill">AWS</div>
+        <div class="skill">Azure</div>
+        <div class="skill">Snowflake</div>
+        <div class="skill">Python</div>
+        <div class="skill">SQL</div>
+      </div>
+    </section>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
-  <!-- Uncomment below i you want to use a preloader -->
-  <!-- <div id="preloader"></div> -->
+    <section>
+      <h2>Certifications</h2>
+      <ul>
+        <li>Databricks Certified Data Engineer – Professional</li>
+        <li>Databricks Certified Data Engineer – Associate</li>
+        <li>AWS Certified Cloud Practitioner</li>
+      </ul>
+    </section>
 
-  <!-- JavaScript Libraries -->
-  <script src="lib/jquery/jquery.min.js"></script>
-  <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="lib/easing/easing.min.js"></script>
-  <script src="lib/mobile-nav/mobile-nav.js"></script>
-  <script src="lib/wow/wow.min.js"></script>
-  <script src="lib/waypoints/waypoints.min.js"></script>
-  <script src="lib/counterup/counterup.min.js"></script>
-  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-  <script src="lib/isotope/isotope.pkgd.min.js"></script>
-  <script src="lib/lightbox/js/lightbox.min.js"></script>
-  <!-- Contact Form JavaScript File -->
-  <script src="contactform/contactform.js"></script>
+    <footer>
+      <p>© 2026 Shiva Manhar. Built as a simple personal profile site.</p>
+    </footer>
 
-  <!-- Template Main Javascript File -->
-  <script src="js/main.js"></script>
-
+  </div>
 </body>
 </html>
